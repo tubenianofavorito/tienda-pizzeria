@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>COZZOLISI-Pizzeria</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="/favicon.png" type="image/png" />
+    <!-- Enlace de font awesome cdn  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <!-- Enlace de swiper cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <!-- Enlace de la hoja de estilos -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Inicio de la sección header -->
+    <header class="header">
+      <a href="#" class="logo">
+        <img
+          src="/images/logo.png"
+          width="186"
+          height="62"
+          alt="Cozzolisi-home"
+        />
+      </a>
+
+      <nav class="navbar">
+        <a href="index.html">Inicio</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="Menu.html">Menú</a>
+        <a href="Galeria.html">Galeria</a>
+        <a href="Contactos.html">Contactos</a>
+      </nav>
+
+      <div class="icons">
+        <div id="cart" class="fas fa-shopping-cart"></div>
+        <div id="login" class="fas fa-user"></div>
+        <div id="menu" class="fas fa-bars"></div>
+      </div>
+
+      <!-- Inicio de la sección carrito -->
+      <div class="shopping-cart">
+        <div class="box">
+          <i class="fas fa-times"></i>
+          <img src="images/cart-1.png" alt="" />
+          <div class="content">
+            <h3>pizza</h3>
+            <span class="quantity">1</span>
+            <span class="multiply">x</span>
+            <span class="price">Bs. 18.99</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-times"></i>
+          <img src="images/cart-2.png" alt="" />
+          <div class="content">
+            <h3>pizza</h3>
+            <span class="quantity">1</span>
+            <span class="multiply">x</span>
+            <span class="price">Bs. 18.99</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-times"></i>
+          <img src="images/cart-3.png" alt="" />
+          <div class="content">
+            <h3>pizza</h3>
+            <span class="quantity">1</span>
+            <span class="multiply">x</span>
+            <span class="price">Bs. 18.99</span>
+          </div>
+        </div>
+        <h3 class="total">total: Bs.56.97</h3>
+        <a href="#" class="btn">Ver carrito</a>
+      </div>
+      <!-- Final de la sección carrito -->
+
+      <!-- Inicio de la sección acceso de usuario -->
+      <form action="" class="login-form">
+        <h3>Inicio de sesión</h3>
+        <input type="email" placeholder="Ingresa tu correo" class="box" />
+        <input
+          type="password"
+          placeholder="Ingresa tu contraseña"
+          class="box"
+        />
+        <div class="remember">
+          <input type="checkbox" name="" id="remember-me" />
+          <label for="remember-me">Recuérdame</label>
+        </div>
+        <input type="submit" value="login" class="btn" />
+      </form>
+    </header>
+    <!-- Final de la sección acceso de usuario -->
+    <!-- Final de la sección header -->
+
+    <div class="heading">
+      <h1>Nosotros</h1>
+      <p><a href="home.html">Inicio>>></a> Nosotros</p>
+    </div>
+
+    <!-- Inicio de la sección nosotros -->
+    <section class="about">
+      <div class="row">
+        <div class="image">
+          <img src="images/about.jpg" alt="" />
+        </div>
+
+        <div class="content">
+          <h3>Bienvenidos a la <span>pizzeria</span> COZZOLISI</h3>
+          <p>
+            Ese pan amasado, aplanado y amoldado al tamaño de una gran charola,
+            ese que se lo cubre con abundante salsa de tomate, se le rocía una
+            espesa lluvia de queso y se le añade una cama gorda de jamón, ese
+            bocado cuyo origen se remonta al siglo X, pero que llegó a
+            Cochabamba recién el siglo pasado, ese exquisito bocadillo hoy tiene
+            un nombre consagrado en la Llajta: Cozzolisi, la pizza que cumple 35
+            años otorgándole un toque internacional al diente cochabambino.
+          </p>
+          <p>
+            La travesía de Cozzolisi nace cuando Jacqueline De Grandchant y su
+            esposo, Javier Estenssoro, optaron por el lado más duro e incierto
+            de un emprendimiento: enfrentarse a un público desconocido. Por
+            entonces, antes de Cozzolisi, existía sólo una pizzería de talla
+            grande, Don Corleone, lo que cualquiera supondría un mercado abierto
+            para más negocios similares. Pero no, más que eso, la verdadera
+            competencia estribaba en convencer al tradicional y riguroso paladar
+            cochabambino.
+          </p>
+          <a href="#" class="btn">Leer más</a>
+        </div>
+      </div>
+    </section>
+    <!-- Inicio de la sección nosotros -->
+
+    <!-- Inicio de la sección blog -->
+
+    <section class="blogs">
+      <h1 class="title">Nuestro <span>Blog</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="images/blog-1.jpg" alt="" />
+          <div class="icons">
+            <a href="#"><i class="fas fa-calendar"></i>05 june, 2023</a>
+            <a href="#"><i class="fas fa-user"></i> por Cozzolisi</a>
+          </div>
+          <h3>Los 5 mejores quesos para la pizza</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+            delectus
+          </p>
+          <a href="#" class="btn">Leer Más</a>
+        </div>
+
+        <div class="box">
+          <img src="images/blog-2.jpg" alt="" />
+          <div class="icons">
+            <a href="#"><i class="fas fa-calendar"></i>05 june, 2023</a>
+            <a href="#"><i class="fas fa-user"></i> por Cozzolisi</a>
+          </div>
+          <h3>Alimentos mediterráneos incluidos en las pizzas</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+            delectus
+          </p>
+          <a href="#" class="btn">Leer Más</a>
+        </div>
+
+        <div class="box">
+          <img src="images/blog-3.jpg" alt="" />
+          <div class="icons">
+            <a href="#"><i class="fas fa-calendar"></i>05 june, 2023</a>
+            <a href="#"><i class="fas fa-user"></i> por Cozzolisi</a>
+          </div>
+          <h3>Los beneficios secretos de la pizza que no conocías</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+            delectus
+          </p>
+          <a href="#" class="btn">Leer Más</a>
+        </div>
+
+        <div class="box">
+          <img src="images/blog-4.jpg" alt="" />
+          <div class="icons">
+            <a href="#"><i class="fas fa-calendar"></i>05 june, 2023</a>
+            <a href="#"><i class="fas fa-user"></i> por Cozzolisi</a>
+          </div>
+          <h3>Curiosidades sobre la pizza que desconoces</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+            delectus
+          </p>
+          <a href="#" class="btn">Leer Más</a>
+        </div>
+
+        <div class="box">
+          <img src="images/blog-5.jpg" alt="" />
+          <div class="icons">
+            <a href="#"><i class="fas fa-calendar"></i>05 june, 2023</a>
+            <a href="#"><i class="fas fa-user"></i> por Cozzolisi</a>
+          </div>
+          <h3>¿Cómo diferenciar una buena pizza artesanal?</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+            delectus
+          </p>
+          <a href="#" class="btn">Leer Más</a>
+        </div>
+
+        <div class="box">
+          <img src="images/blog-6.jpg" alt="" />
+          <div class="icons">
+            <a href="#"><i class="fas fa-calendar"></i>05 june, 2023</a>
+            <a href="#"><i class="fas fa-user"></i> por Cozzolisi</a>
+          </div>
+          <h3>Cómo hacer una buena masa de pizza casera, rápida y fácil</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+            delectus
+          </p>
+          <a href="#" class="btn">Leer Más</a>
+        </div>
+
+        <div class="box">
+          <img src="images/blog-7.jpg" alt="" />
+          <div class="icons">
+            <a href="#"><i class="fas fa-calendar"></i>05 june, 2023</a>
+            <a href="#"><i class="fas fa-user"></i> por Cozzolisi</a>
+          </div>
+          <h3>Los mejores ingredientes para una buena pizza</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+            delectus
+          </p>
+          <a href="#" class="btn">Leer Más</a>
+        </div>
+
+        <div class="box">
+          <img src="images/blog-8.jpg" alt="" />
+          <div class="icons">
+            <a href="#"><i class="fas fa-calendar"></i>05 june, 2023</a>
+            <a href="#"><i class="fas fa-user"></i> por Cozzolisi</a>
+          </div>
+          <h3>La curiosa historia de la pizza</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+            delectus
+          </p>
+          <a href="#" class="btn">Leer Más</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- about section ends -->
+
+    <!-- Inicio de la sección footer -->
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>Encuéntranos aquí</h3>
+          <p>Estas son nuestras redes sociales</p>
+          <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+          </div>
+        </div>
+
+        <div class="box">
+          <h3>Contáctanos</h3>
+          <p>+591 65300665</p>
+          <a href="#" class="link">cozzolisi@gmail.com</a>
+        </div>
+
+        <div class="box">
+          <h3>Ubicación</h3>
+          <p>
+            Calle Luis Prado <br />
+            Barrio Coña-Coña
+          </p>
+        </div>
+      </div>
+      <div class="credit">
+        creado por <span>UNIFRANZ 2023</span> | Todos los derechos reservados!
+      </div>
+    </section>
+    <!-- Final de la sección footer -->
+
+    <!-- Enlace de swiper cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!-- Enlace custom js -->
+    <script src="script.js"></script>
+  </body>
+</html>
